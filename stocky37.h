@@ -2,7 +2,7 @@
 #define USERSPACE
 
 #include "quantum.h"
-#include "wrappers.h"
+#include "aliases.h"
 
 enum layers {
     _BASE = 0,
@@ -14,8 +14,5 @@ enum layers {
     _QWERTY,
     _FN
 };
-
-// Shorter spacing
-
 
 #endif
