@@ -57,6 +57,9 @@
 #define _________________QWERTY_R2_________________       KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT
 #define _________________QWERTY_R3_________________       KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH
 
+// --------------------------------------------------------------------------------------------------
+//  uciea-vanilla
+// --------------------------------------------------------------------------------------------------
 #define _________________UCIEA_L1__________________       KC_P,    KC_Y,    KC_U,    KC_O,    KC_MINS
 #define _________________UCIEA_L2__________________       KC_C,    KC_I,    KC_E,    KC_A,    KC_QUOT
 #define _________________UCIEA_L3__________________       KC_Z,    KC_SLSH, KC_COMM, KC_DOT,  KC_SCLN
@@ -65,6 +68,10 @@
 #define _________________UCIEA_R2__________________       KC_G,    KC_T,    KC_N,    KC_S,    KC_R,    KC_V
 #define _________________UCIEA_R3__________________       KC_W,    KC_M,    KC_L,    KC_B,    KC_J
 
+
+// --------------------------------------------------------------------------------------------------
+//  uciea-gcsv
+// --------------------------------------------------------------------------------------------------
 #define _______________UCIEA_GCSV_L1_______________       KC_G,    KC_Y,    KC_U,    KC_O,    KC_MINS
 #define _______________UCIEA_GCSV_L2_______________       KC_C,    KC_I,    KC_E,    KC_A,    KC_COMM
 #define _______________UCIEA_GCSV_L3_______________       KC_Z,    KC_J,    KC_QUOT, KC_DOT,  KC_SCLN
@@ -73,8 +80,21 @@
 #define _______________UCIEA_GCSV_R2_______________       KC_D,    KC_T,    KC_R,    KC_N,    KC_S,    KC_V
 #define _______________UCIEA_GCSV_R3_______________       KC_F,    KC_W,    KC_L,    KC_B,    KC_SLSH
 
+
+
+// --------------------------------------------------------------------------------------------------
+//  uciea-pcrw
+// --------------------------------------------------------------------------------------------------
+#define _______________UCIEA_PCRW_L1_______________       KC_P,    KC_Y,    KC_U,    KC_O,    KC_MINS
+#define _______________UCIEA_PCRW_L2_______________       _______________UCIEA_GCSV_L2_______________
+#define _______________UCIEA_PCRW_L3_______________       _______________UCIEA_GCSV_L3_______________
+
+#define _______________UCIEA_PCRW_R1_______________       KC_K,    KC_M,    KC_H,    KC_B,    KC_X,    KC_Q
+#define _______________UCIEA_PCRW_R2_______________       KC_D,    KC_T,    KC_N,    KC_S,    KC_R,    KC_W
+#define _______________UCIEA_PCRW_R3_______________       KC_F,    KC_G,    KC_L,    KC_V,    KC_SLSH
+
 #define _________________ENGRAM_L1_________________       KC_B,    KC_Y,    KC_O,    KC_U,    KC_QUOT
-#define _________________ENGRAM_L2_________________       _______________UCIEA_GCSV_L2_______________
+#define _________________ENGRAM_L2_________________       KC_C,    KC_I,    KC_E,    KC_A,    KC_COMM
 #define _________________ENGRAM_L3_________________       KC_G,    KC_X,    KC_J,    KC_K,    KC_MINS
 
 #define _________________ENGRAM_R1_________________       KC_DQT,  KC_L,    KC_D,    KC_W,    KC_V,    KC_Z

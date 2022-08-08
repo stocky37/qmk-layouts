@@ -8,6 +8,7 @@ enum layers {
     _BASE = 0,
     _UCIEA,
     _UCIEA_GCSV,
+    _UCIEA_PCRW,
     _ENGRAM,
     _KEYPAD,
     _SYMBOLS,
