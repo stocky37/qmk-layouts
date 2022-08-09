@@ -29,7 +29,7 @@
 #define _________________KEYPAD_R2_________________       ____,    KC_4,    KC_5,    KC_6,    KC_PLUS
 #define _________________KEYPAD_R3_________________       ____,    KC_1,    KC_2,    KC_3,    KC_PLUS
 
-#define _______________FUNCTIONS_L0________________       DF(_UCIEA), DF(_UCIEA_GCSV), DF(_UCIEA_PCRW), DF(_ENGRAM), ____
+#define _______________FUNCTIONS_L0________________       DF(_UCIEA), DF(_UCIEA_GCSV), DF(_UCIEA_BCSV), DF(_ENGRAM), ____
 #define _______________FUNCTIONS_L1________________       ____,       RGB_VAI,         ____,            ____,        ____
 #define _______________FUNCTIONS_L2________________       ____,       RGB_VAD,         ____,            ____,        ____
 #define _______________FUNCTIONS_L3________________       ___________________BLANK___________________
@@ -82,15 +82,22 @@
 
 
 // --------------------------------------------------------------------------------------------------
-//  uciea-pcrw
+//  uciea-bcsv
 // --------------------------------------------------------------------------------------------------
-#define _______________UCIEA_PCRW_L1_______________       KC_P,    KC_Y,    KC_U,    KC_O,    KC_MINS
-#define _______________UCIEA_PCRW_L2_______________       _______________UCIEA_GCSV_L2_______________
-#define _______________UCIEA_PCRW_L3_______________       _______________UCIEA_GCSV_L3_______________
+//
+// based on uciea-gcsv
+// rotates g -> w -> p -> b
+// 'pl' and 'wh' bigrams side by side
+// 'g' on stronger finger
+// 'b' location similar to engram
+// 'wn', 'np' bigrams downwards
+#define _______________UCIEA_BCSV_L1_______________       KC_B,    KC_Y,    KC_U,    KC_O,    KC_MINS
+#define _______________UCIEA_BCSV_L2_______________       _______________UCIEA_GCSV_L2_______________
+#define _______________UCIEA_BCSV_L3_______________       _______________UCIEA_GCSV_L3_______________
 
-#define _______________UCIEA_PCRW_R1_______________       KC_K,    KC_M,    KC_H,    KC_B,    KC_X,    KC_Q
-#define _______________UCIEA_PCRW_R2_______________       KC_D,    KC_T,    KC_N,    KC_S,    KC_R,    KC_W
-#define _______________UCIEA_PCRW_R3_______________       KC_F,    KC_G,    KC_L,    KC_V,    KC_SLSH
+#define _______________UCIEA_BCSV_R1_______________       KC_K,    KC_M,    KC_H,    KC_W,    KC_X,    KC_Q
+#define _______________UCIEA_BCSV_R2_______________       _______________UCIEA_GCSV_R2_______________
+#define _______________UCIEA_BCSV_R3_______________       KC_F,    KC_G,    KC_L,    KC_P,    KC_SLSH
 
 
 // --------------------------------------------------------------------------------------------------
