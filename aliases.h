@@ -14,10 +14,10 @@
 // base layer change aliases
 #define QWERTY DF(_BASE)
 #define UCIEA DF(_UCIEA)
-#define UCIEA_GCSV DF(_UCIEA_GCSV)
-#define UCIEA_PCRW DF(_UCIEA_PCRW)
+//#define UCIEA_GCSV DF(_UCIEA_GCSV)
+//#define UCIEA_PCRW DF(_UCIEA_PCRW)
 #define UCIEA_CUSTOM DF(_UCIEA_CUSTOM)
-#define ENGRAM DF(_ENGRAM)
+//#define ENGRAM DF(_ENGRAM)
 
 // --------------------------------------------------------------------------------------------------
 // misc.
@@ -44,7 +44,12 @@
 // --------------------------------------------------------------------------------------------------
 //  keypad layer
 // --------------------------------------------------------------------------------------------------
-#define _________________KEYPAD_R0_________________       ____,    KC_NUM,  KC_SLSH, KC_ASTR, KC_MINS
+#define _________________KEYPAD_L0_________________       ___________________BLANK___________________
+#define _________________KEYPAD_L1_________________       ___________________BLANK___________________
+#define _________________KEYPAD_L2_________________       ___________________BLANK___________________
+#define _________________KEYPAD_L3_________________       ___________________BLANK___________________
+
+#define _________________KEYPAD_R0_________________       ____,    ____,    KC_SLSH, KC_ASTR, KC_MINS
 #define _________________KEYPAD_R1_________________       ____,    KC_7,    KC_8,    KC_9,    KC_MINS
 #define _________________KEYPAD_R2_________________       ____,    KC_4,    KC_5,    KC_6,    KC_PLUS
 #define _________________KEYPAD_R3_________________       ____,    KC_1,    KC_2,    KC_3,    KC_PLUS
