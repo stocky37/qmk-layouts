@@ -14,10 +14,10 @@
 // base layer change aliases
 #define QWERTY DF(_BASE)
 #define UCIEA DF(_UCIEA)
-//#define UCIEA_GCSV DF(_UCIEA_GCSV)
-//#define UCIEA_PCRW DF(_UCIEA_PCRW)
-#define UCIEA_CUSTOM DF(_UCIEA_CUSTOM)
-//#define ENGRAM DF(_ENGRAM)
+#define ENGRAM DF(_ENGRAM)
+
+
+#define MO_SYM MO(_SYMBOLS)
 
 // --------------------------------------------------------------------------------------------------
 // misc.
@@ -28,6 +28,10 @@
 
 #define _________________FUNC_LEFT_________________       KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5
 #define _________________FUNC_RIGHT________________       KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10
+
+#define ___________FBLOCK1___________       KC_F1,   KC_F2,   KC_F3,   KC_F4
+#define ___________FBLOCK2___________       KC_F5,   KC_F6,   KC_F7,   KC_F8
+#define ___________FBLOCK3___________       KC_F9,   KC_F10,  KC_F11,  KC_F12
 
 // --------------------------------------------------------------------------------------------------
 //  standard number row
@@ -57,9 +61,9 @@
 // --------------------------------------------------------------------------------------------------
 //  functions layer
 // --------------------------------------------------------------------------------------------------
-#define _______________FUNCTIONS_L0________________       UCIEA, UCIEA_GCSV, UCIEA_CUSTOM, ____, ____
-#define _______________FUNCTIONS_L1________________       ____,  RGB_VAI,    ____,         ____, ____
-#define _______________FUNCTIONS_L2________________       ____,  RGB_VAD,    ____,         ____, ____
+#define _______________FUNCTIONS_L0________________       UCIEA,   ENGRAM,   ____,     ____,     ____
+#define _______________FUNCTIONS_L1________________       ____,    RGB_VAI,  ____,     ____,     ____
+#define _______________FUNCTIONS_L2________________       ____,    RGB_VAD,  ____,     ____,     ____
 #define _______________FUNCTIONS_L3________________       ___________________BLANK___________________
 
 #define _______________FUNCTIONS_R0________________       ___________________BLANK___________________
@@ -70,14 +74,13 @@
 // --------------------------------------------------------------------------------------------------
 //  symbols layer
 // --------------------------------------------------------------------------------------------------
-#define ________________SYMBOLS_L1_________________       XXXX,    KC_EXLM, KC_EQL,  KC_MINS, KC_ASTR
-#define ________________SYMBOLS_L2_________________       XXXX,    KC_LBRC, KC_LCBR, KC_LPRN, KC_QUOT
-#define ________________SYMBOLS_L3_________________       XXXX,    XXXX,    XXXX,    KC_LT,   KC_AMPR
+#define ________________SYMBOLS_L1_________________       XXXX,    KC_AT,   KC_HASH, KC_QUOT, KC_UNDS
+#define ________________SYMBOLS_L2_________________       KC_EXLM, KC_PIPE, KC_DLR,  KC_AMPR, KC_SCLN
+#define ________________SYMBOLS_L3_________________       XXXX,    KC_LBRC, KC_LPRN, KC_LCBR, KC_LT
 
-#define ________________SYMBOLS_R1_________________       KC_SLSH, KC_BSLS, KC_DLR,  KC_HASH, XXXX
-#define ________________SYMBOLS_R2_________________       KC_DQUO, KC_RPRN, KC_RCBR, KC_RBRC, XXXX
-#define ________________SYMBOLS_R3_________________       KC_PIPE, KC_GT,   XXXX,    XXXX,    XXXX
-
+#define ________________SYMBOLS_R1_________________       KC_QUES, KC_DQUO, KC_ASTR, KC_SLSH, KC_CIRC
+#define ________________SYMBOLS_R2_________________       KC_COLN, KC_PLUS, KC_EQL,  KC_MINS, KC_PERC
+#define ________________SYMBOLS_R3_________________       KC_GT,   KC_GT,   KC_RCBR, KC_RPRN, KC_RBRC
 
 // --------------------------------------------------------------------------------------------------
 //  qwerty
